@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  background:  url('images/light.gif') no-repeat center center / cover;
+  
+  overflow:hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+  margin-left: 20% ;
+  color: #ccc;
+}
+
+h1, h2 {
+  font-weight: 200;
+  margin: 0.4rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2{
+  font-size: 2rem;
+  color: #00FFB8;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+.logo{
+  height: 70px;
+  width: 70px;
+}
+.college{
+  background-color: black ;
+}
+footer{
+	background: rgba(0,0,0,0.5);
+	color: grey ;
+	font-size: 17px ;
+	text-align: center;
+	padding: 10px 0px 0px 0px ;
+}
+
