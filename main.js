@@ -14,7 +14,7 @@ class TypeWriter {
       const current = this.wordIndex % this.words.length;
       // Get full text of current word
       const fullTxt = this.words[current];
-  
+      // this is imp
       // Check if deleting
       if(this.isDeleting) {
         // Remove char
